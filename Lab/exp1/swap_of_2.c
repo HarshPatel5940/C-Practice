@@ -11,7 +11,7 @@ void main() {
     printf("Enter the value for Num 2: ");
     scanf("%d", &num2);
 
-    printf("\nThe Value After swapping is %d %d", num1,num2);
+    printf("\nThe Value Before swapping is %d %d", num1,num2);
 
     num1 = num1 + num2;
     num2 = num1 - num2;
