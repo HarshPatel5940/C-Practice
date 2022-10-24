@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main() {
+int main() {
     float PI = 3.14;
     float radius, perimeter;
 
@@ -9,7 +9,7 @@ void main() {
 
     perimeter = 2 * PI * radius;
 
-
     printf("\nThe Area of circle is: %f", perimeter);
 
+    return 0;
 }

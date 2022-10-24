@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 
 int main() {
     int a;
@@ -7,4 +7,6 @@ int main() {
     scanf("%d", &a);
 
     printf("The Compliment of %d is: %d", a, ~a);
+
+    return 0;
 }
