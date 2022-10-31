@@ -9,7 +9,7 @@ int main() {
 
     perimeter = 2 * PI * radius;
 
-    printf("\nThe Area of circle is: %f", perimeter);
+    printf("\nThe Area of circle is: %.2f", perimeter);
 
     return 0;
 }
